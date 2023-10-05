@@ -61,62 +61,39 @@ export const personalInfo = [
   {
     id: 1,
     title: 'First Name : ',
-    description: 'Steve',
+    description: 'Akram',
   },
 
   {
     id: 2,
     title: 'Last Name : ',
-    description: 'Milner',
+    description: 'Alam',
   },
 
   {
     id: 3,
     title: 'Age : ',
-    description: '27 Years',
+    description: '26 Years',
   },
 
   {
     id: 4,
-    title: 'Nationality : ',
-    description: 'Tunisian',
+    title: 'Location : ',
+    description: 'Washington D.C. & Baltimore MD',
   },
 
   {
     id: 5,
-    title: 'Freelance : ',
-    description: 'Available',
+    title: 'Phone : ',
+    description: '443-694-3459',
   },
 
   {
     id: 6,
-    title: 'Address : ',
-    description: 'Tunis',
-  },
-
-  {
-    id: 7,
-    title: 'Phone : ',
-    description: '+21621184010',
-  },
-
-  {
-    id: 8,
     title: 'Email : ',
-    description: 'you@mail.com',
+    description: 'akramalam0920@gmail.com',
   },
 
-  {
-    id: 9,
-    title: 'Skype : ',
-    description: 'steve.milner',
-  },
-
-  {
-    id: 10,
-    title: 'Langages : ',
-    description: 'French, English',
-  },
 ];
 
 export const stats = [
@@ -205,49 +182,49 @@ export const skills = [
   {
     id: 1,
     title: 'Html',
-    percentage: '25',
+    percentage: '90',
   },
 
   {
     id: 2,
     title: 'Javascript',
-    percentage: '89',
+    percentage: '90',
   },
 
   {
     id: 3,
     title: 'Css',
-    percentage: '70',
+    percentage: '95',
   },
 
   {
     id: 4,
-    title: 'Php',
+    title: 'Ruby',
     percentage: '66',
   },
 
   {
     id: 5,
-    title: 'Wordpress',
+    title: 'Ruby on Rails',
     percentage: '95',
   },
 
   {
     id: 6,
-    title: 'Jquery',
-    percentage: '50',
+    title: 'SQLite',
+    percentage: '85',
   },
 
   {
     id: 7,
-    title: 'Angular',
-    percentage: '65',
+    title: 'Git',
+    percentage: '88',
   },
 
   {
     id: 8,
-    title: 'React',
-    percentage: '45',
+    title: 'React.js',
+    percentage: '95',
   },
 ];
 
