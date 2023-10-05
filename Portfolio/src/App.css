@@ -8,7 +8,7 @@
     --first-color: hsl(271, 76%, 53%);
     --title-color: hsl(0, 0%, 40%);
     --text-color: hsl(0, 0%, 50%);
-    --text-color: hsl(0, 0%, 50%);
+    --body-color: hsl(0, 0%, 100%);
     --container-color: hsl(0, 0%, 93%);
     --border-color: hsl(0, 0%, 87%);
     --text-white: #fff;
@@ -37,4 +37,59 @@
 
 
 
+};
+
+/*========================== BASE =============================*/
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+};
+
+body,
+input,
+textarea {
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    font-weight: var(--weight-500);
+
+};
+
+body {
+    background-color: var(--body-color);
+    color: var(--text-color);
+
+};
+
+h1,
+h2,
+h3,
+h4 {
+    color: var(--title-color);
+    font-family: var(--second-font);
+    font-weight: var(--weight-700);
+
+};
+
+ul {
+    list-style: none;
+
+};
+
+a{
+    text-decoration: none;
+};
+
+button,
+input,
+textarea {
+
+    background-color: transparent;
+    border: none;
+    outline: none;
+};
+
+img {
+    max-width: 100%;
 };
