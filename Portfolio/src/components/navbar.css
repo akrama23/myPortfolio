@@ -1,0 +1,9 @@
+.nav__menu {
+    position: fixed;
+    inset-block: 0;
+    left: 0;
+    background-color: var(--container-color);
+    width: 100px;
+    padding: 60px 30px;
+    
+}
